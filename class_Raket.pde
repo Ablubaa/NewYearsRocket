@@ -180,3 +180,14 @@ class Raket3 extends Raket {
     alfa--;
   }
 }
+/*************************************/
+class Debil extends Raket {
+ 
+   void eksploderRaket(){
+         noStroke();
+    fill(random(255),random(255),random(255),alfa);
+    circle(location.x,location.y,dia);
+    dia+=4;
+    alfa-=2;
+}
+}

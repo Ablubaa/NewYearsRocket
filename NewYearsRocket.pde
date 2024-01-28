@@ -8,6 +8,7 @@ SoundFile raket2;
 Raket1 r1;
 Raket2 r2;
 Raket3 r3;
+Debil r4;
 
 void setup() {
   size(1500, 800);
@@ -19,6 +20,7 @@ void setup() {
   r1 = new Raket1();
   r2 = new Raket2();
   r3 = new Raket3();
+  r4 = new Debil();
 }
 
 
@@ -29,6 +31,7 @@ void draw() {
   r1.flyvRaket();
   r2.flyvRaket();
   r3.flyvRaket();
+  r4.flyvRaket();
   
   
 }
